@@ -7,7 +7,6 @@ import Camera from '../(pages)/auth/usr/Camera';
 import MapEntries from '../(pages)/auth/usr/MapEntries';
 import MapPreview from '../(pages)/auth/usr/MapView';
 import Weather from '../(pages)/auth/usr/Weather';
-import Test from '../(pages)/auth/tst/Test';
 import DraftsPage from '../(pages)/auth/usr/DraftsPage';
 import FarmActivityScreen from '../(pages)/auth/usr/FarmActivity';
 import UserActivityScreen from '../(pages)/auth/usr/UserActivity';
@@ -85,11 +84,6 @@ function AuthenticatedUserStack() {
           name="AccountSettings"
           component={AccountSettingsScreen}
           options={{ title: 'Account Settings' }}
-        />
-        <AuthenticatedUserFlowStack.Screen
-          name="Test"
-          component={Test}
-          options={{ title: 'Test' }}
         />
         <AuthenticatedUserFlowStack.Screen
           name="MapDetailsUpdate"
