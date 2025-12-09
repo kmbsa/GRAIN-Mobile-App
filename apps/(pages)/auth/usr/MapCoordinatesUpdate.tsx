@@ -891,6 +891,7 @@ const MapCoordinatesUpdate = () => {
             Authorization: `Bearer ${userToken}`,
             ...getDeviceHeader(),
           },
+          timeout: 5000,
         },
       );
 

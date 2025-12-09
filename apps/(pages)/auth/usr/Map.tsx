@@ -893,7 +893,7 @@ export default function Map() {
           Authorization: `Bearer ${userToken}`,
           ...getDeviceHeader(),
         },
-        timeout: 10000,
+        timeout: 5000,
       });
 
       if (response.status === 200 || response.status === 201) {
